@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://dcqrn5ojvljtd" path="res://art/pecas/Pink Piece.png" id="2_j8qd3"]
 
 [node name="Peca_rosa" instance=ExtResource("1_6r2sv")]
+color = "rosa"
 
 [node name="Sprite2D" parent="." index="0"]
 texture = ExtResource("2_j8qd3")

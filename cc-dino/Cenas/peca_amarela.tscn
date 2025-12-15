@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://d0rx3jx5m8km"]
+
+[ext_resource type="PackedScene" uid="uid://bc85wa5yugqdo" path="res://Cenas/peca.tscn" id="1_kedw8"]
+[ext_resource type="Texture2D" uid="uid://cvbo3dropgmw6" path="res://art/pecas/Yellow Piece.png" id="2_uxqxv"]
+
+[node name="Peca_amarela" instance=ExtResource("1_kedw8")]
+color = "amarelo"
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_uxqxv")

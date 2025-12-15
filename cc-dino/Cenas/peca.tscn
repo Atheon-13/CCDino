@@ -1,6 +1,9 @@
-[gd_scene format=3 uid="uid://bc85wa5yugqdo"]
+[gd_scene load_steps=2 format=3 uid="uid://bc85wa5yugqdo"]
 
-[node name="Node2D" type="Node2D"]
+[ext_resource type="Script" uid="uid://crsvwfde7pvfh" path="res://Scripts/peca.gd" id="1_ylvav"]
+
+[node name="peca" type="Node2D"]
+script = ExtResource("1_ylvav")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(0.5, 0.5)
