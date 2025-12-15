@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://h5vuae0d7wsb"]
+
+[ext_resource type="Texture2D" uid="uid://dddwt7kbmeom1" path="res://art/background 2.png" id="1_wm8yg"]
+[ext_resource type="Texture2D" uid="uid://c11txyg1vdhxd" path="res://art/Top UI v 2.png" id="2_pn5db"]
+[ext_resource type="Texture2D" uid="uid://rwad81vhcewi" path="res://art/Bottom UI v 2.png" id="3_0ft7o"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Background" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_wm8yg")
+
+[node name="Top_ui" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_pn5db")
+
+[node name="Bottom_ui" type="TextureRect" parent="."]
+offset_top = 928.0
+offset_right = 576.0
+offset_bottom = 1020.0
+texture = ExtResource("3_0ft7o")
