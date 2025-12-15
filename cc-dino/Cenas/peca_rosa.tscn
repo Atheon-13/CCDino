@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://drd2ub7p4tvt4"]
+
+[ext_resource type="PackedScene" uid="uid://bc85wa5yugqdo" path="res://Cenas/peca.tscn" id="1_6r2sv"]
+[ext_resource type="Texture2D" uid="uid://dcqrn5ojvljtd" path="res://art/pecas/Pink Piece.png" id="2_j8qd3"]
+
+[node name="Peca_rosa" instance=ExtResource("1_6r2sv")]
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_j8qd3")
